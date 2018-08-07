@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FINA Calculator (2017)</string>
+    <string name="course_off">25m</string>
+    <string name="course_on">50m</string>
+    <string name="gender_off">F</string>
+    <string name="gender_on">M</string>
+    <string name="time">Set time</string>
+
+    <string-array name="styles">
+        <item>Freestyle</item>
+        <item>Backstroke</item>
+        <item>Breaststroke</item>
+        <item>Butterfly</item>
+        <item>Medley</item>
+    </string-array>
+
+    <string-array name="distances">
+        <item>50m</item>
+        <item>100m</item>
+        <item>200m</item>
+        <item>400m</item>
+        <item>800m</item>
+        <item>1500m</item>
+        <item>4x50m</item>
+        <item>4x100m</item>
+        <item>4x200m</item>
+    </string-array>
+</resources>

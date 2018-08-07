@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/decs"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mins"
+        android:layout_toEndOf="@+id/dot"
+        android:ems="10"
+        android:hint="xx"
+        android:inputType="number"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/mins"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="mm"
+        android:inputType="number"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/secs"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mins"
+        android:layout_toEndOf="@+id/colon"
+        android:ems="10"
+        android:hint="ss"
+        android:inputType="number"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/dot"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/mins"
+        android:layout_toEndOf="@+id/secs"
+        android:text="."
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/colon"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/mins"
+        android:layout_toEndOf="@+id/mins"
+        android:text=":"
+        android:textSize="24sp" />
+
+</RelativeLayout>
